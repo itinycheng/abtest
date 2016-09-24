@@ -1,3 +1,5 @@
-# abtest
-create project structure <br>
-the purpose of the project is to support Recommendation System do abtest.
+## abtest
+the purpose of the project is to support ab testing of Recommendation System. <br>
+## principle
+              (node)
+      (node)  (node)   (node)
