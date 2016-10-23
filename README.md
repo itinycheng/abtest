@@ -36,7 +36,7 @@ generate object(ABTestTree)
 </pre>
 
 ####output
-ABTestTree
-use ScriptEngineManager.getEngineByName(js").eval() to execute edge expression.
+ABTestTree <br>
+Use ScriptEngineManager.getEngineByName(js").eval() to execute edge expression.
 ##config module
 A User-defined configuration center for ab-testing config.
