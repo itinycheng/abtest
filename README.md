@@ -1,7 +1,9 @@
 # abtest
-the purpose of the project is to support ab testing of Recommendation System. <br>
+The purpose of the project is to support ab-testing of Recommendation System. <br>
 
-##core
+##core module
+generate object(ABTestTree)
+
 ####input example
 <pre>
 {
@@ -35,3 +37,6 @@ the purpose of the project is to support ab testing of Recommendation System. <b
 
 ####output
 ABTestTree
+use ScriptEngineManager.getEngineByName(js").eval() to execute edge expression.
+##config module
+A User-defined configuration center for ab-testing config.
