@@ -8,7 +8,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by 16072453 on 2016/9/19.
+ *
+ * @author 16072453
+ * @date 2016/9/19
  */
 public final class ABTestManager {
 
@@ -42,9 +44,7 @@ public final class ABTestManager {
                 }
             }
         }
-        if (AB_TEST_TREE_NULL.equals(treeModel))
-            return null;
-        return treeModel;
+        return AB_TEST_TREE_NULL.equals(treeModel) ? null : treeModel;
     }
 
     /**
